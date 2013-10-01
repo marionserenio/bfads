@@ -1,5 +1,4 @@
 <?php require('header.php') ?>
-
 	<div class="content-box shadow">
 		<div class="content">
 			<div class="SecondHeader">
