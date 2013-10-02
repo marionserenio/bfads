@@ -6,13 +6,11 @@
 		</div>
 		<div class="SecondHeader">
 			<a class="back" href="javascript:history.back()"></a>
-			<h1 class="shoppingheader">Shopping List</h1>
-			<span class="total">($450)</span>
+			<h1>Hot Deals</h1>
 		</div>
-
 		<div class="inner-content">
-			<div class="shoppinglist">
-				<ol>
+			<div class="hotdeals">
+				<ul>
 					<li>
 						<a href="#">
 							<div class="list-img">
@@ -20,11 +18,11 @@
 							</div>
 							<div class="list-info">
 								<h3>HP Pavillion Sleekbook 15.6" Laptop w/ Intel Core i3 2377M </h3>
-								<span class="list-price">$250 <span class="list-price-old">($1,999)</span></span>
 							</div>
 						</a>
 					</li>
-				</ol>
+					
+				</ul>
 			</div>
 		</div>			
 	</div>
