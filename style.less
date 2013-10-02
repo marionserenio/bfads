@@ -1413,8 +1413,6 @@ footer{
       float: left;
       width: 100%;
       border:1px solid #ebebeb;
-      position: relative;
-      height: 70px;
       .border-radius(2px);
       .box-shadow(0px 2px 3px #fafafa);
       font-family: "montserratregular", Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -1427,25 +1425,72 @@ footer{
         border:1px solid #d7d7dd;
         .border-radius(2px);
       }
+      .list-price{
+        color:#5d768e;
+        margin-right:3px;
+        float: left;
+        font-size:12px;
+      }
+      .list-price-old{
+        color:#c8c8c8;
+        font-size:12px;
+        text-decoration: line-through;
+      }
       h3{
         font-size:14px;
         margin: 0px;
         color:#6b7382;
         text-align: left;
       }
-       .list-info{
-        position: absolute;
-        left: 85px;
+      .list-info{
       }
     }
   }
 }
-
-
-
-
-
-
+.articles-list{
+  ul{
+    padding: 0px;
+    margin: 0px;
+    li{
+      list-style: none;
+      font-family: "montserratregular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size:14px;
+      border-bottom:1px solid #ebebeb;
+      &:last-child{
+        border-bottom:none;
+      }
+      a{
+        color:#6b7382;
+        padding:7px 0px 7px 0px;
+      }
+    }
+  }
+}
+.pagination{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: blue;
+  a.next{
+    width: 35px;
+    height: 35px;
+    background: red;
+    right: 10px;
+    top:10px;
+    position: absolute;
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+    li{
+      float: left;
+      list-style:none;
+      a{
+        display: block;
+      }
+    }
+  }
+}
 
 
 
